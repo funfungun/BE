@@ -5,6 +5,7 @@ export const getPlaceListByType = (type) => {
         korean: 'korean',
         chinese: 'chinese',
         japanese: 'japanese',
+        western: 'western',
         expert_cafe: 'expert_cafe',
         dessert_cafe: 'dessert_cafe',
         popup: 'popup',
