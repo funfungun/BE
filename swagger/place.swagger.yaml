@@ -8,7 +8,7 @@ paths:
                 - name: type
                   in: path
                   required: true
-                  description: 조회할 장소 유형 (korean, chinese, japanese, expert_cafe, dessert_cafe, popup)
+                  description: 조회할 장소 유형 (korean, chinese, japanese, western, expert_cafe, dessert_cafe, popup, jazzbar, movie)
                   schema:
                       type: string
                       enum: [korean, chinese, japanese, cafe, popup]

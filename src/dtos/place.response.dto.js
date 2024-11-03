@@ -9,9 +9,14 @@ export const placeResponseDTO = (data) => {
         rating: place.rating,
         numberofscore: place.numberofscore,
         review: place.review,
-        hour: place.hour,
         phone_number: place.phone_number,
         moreview_link: place.moreview_link,
         homepage_link: place.homepage_link,
+        latitude: place.latitude,
+        longitude: place.longitude,
+        open_date: place.open_date,
+        open_hour: place.open_hour,
+        breaking_date: place.breaking_date,
+        breaking_hour: place.breaking_hour,
     }));
 };
