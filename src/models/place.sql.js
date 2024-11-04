@@ -13,5 +13,5 @@ export const getPlaceListByType = (type) => {
         movie: 'movie',
     };
     const tableName = tableMap[type] || 'expert_cafe'; // 기본값은 expert_cafe 테이블
-    return `SELECT * FROM ${tableName} ORDER BY rating DESC LIMIT 5;`;
+    return `SELECT * FROM ${tableName} ORDER BY rating DESC LIMIT 20;`;
 };
